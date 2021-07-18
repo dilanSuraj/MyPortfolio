@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaAws, FaHtml5, FaJava } from "react-icons/fa";
+import { FaHtml5, FaJava } from "react-icons/fa";
 import {
   DiJavascript1,
   DiReact,
