@@ -1,31 +1,47 @@
 {
+  "name": "my-portfolio",
+  "version": "0.1.0",
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
-  "version": "0.0.16",
-  "author": "LekoArts <hello@lekoarts.de>",
-  "license": "MIT",
-  "starter-name": "gatsby-starter-portfolio-cara",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^1.0.13",
-    "gatsby": "^2.13.72",
-    "gatsby-plugin-google-analytics": "^2.1.8",
-    "gatsby-plugin-manifest": "^2.2.6",
-    "gatsby-plugin-netlify": "^2.1.6",
-    "gatsby-plugin-offline": "^2.2.7",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^5.0.2",
+    "github-calendar": "^2.2.7",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-parallax-tilt": "^1.5.47",
+    "react-particles-js": "^3.5.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-ts-github-calendar": "^1.0.3",
+    "typewriter-effect": "^2.18.0",
+    "web-vitals": "^1.0.1"
   },
-  "devDependencies": {
-    "cross-env": "^5.2.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
