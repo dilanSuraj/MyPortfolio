@@ -7,7 +7,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.0.2",
-    "github-calendar": "^2.2.7",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
@@ -17,6 +16,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-ts-github-calendar": "^1.0.3",
+    "tsparticles": "^1.31.1",
     "typewriter-effect": "^2.18.0",
     "web-vitals": "^1.0.1"
   },
