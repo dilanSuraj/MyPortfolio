@@ -22,18 +22,24 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Software Engineer - Zone24x7 (Pvt) Ltd"
-              date="January 2021 - Present"
-            />
-            <Resumecontent
-              title="Software Engineer - Circles.Life"
-              date="January 2021 - Present"
+              title="Software Engineer - Rootcode Labs, Colombo"
+              date="August 2021 - Present"
               content={[
-                "Engaged in a telco project. (NodeJS, GoLang, MySQL, MongoDB)",
+                "Engaged in an incident reporting admin application, designing the database schema and automation of data migration from excel to the database(Nest JS, React JS, MySQL) - Hashtag Generation",
+                "Engaged in a video conferencing web and admin application(Nest TS, React JS, MySQL) - Expert Republic",
               ]}
             />
             <Resumecontent
-              title="Software Engineer - Half Life (Private) Limited"
+              title="Software Engineer - Zone24x7 (Pvt) Ltd (Outsourced to Circles.Life)"
+              date="January 2021 - August 2021"
+              content={[
+                "Engaged in a Telecom project which is being currently launched to Singapore, Australia, Japan, etc.. with more than 10000 user base",
+                "Tools & Technologies - NodeJS, Vanilla JS, MySQL, MongoDB, GoLang, Jenkins",
+                "Roles played - Backend, Frontend, Deployment",
+              ]}
+            />
+            <Resumecontent
+              title="Full-Stack Software Engineer - Half Life (Private) Limited"
               date="January 2020 - January 2021"
               content={[
                 "Engaged in a project to implement centralized authentication system. (PostgresSQL, ReactJS, Nodejs/ExpressJs, Digital Ocean)",
@@ -44,7 +50,7 @@ function Resume() {
                 "Engaged in a project to implement google analytics (Python, OAuth, Google Analytics)",
                 "Manasa Project (PostgresSQL, ReactJS, Nodejs/ExpressJs, Digital Ocean)",
                 "Worked under an Agile Environment.",
-                "Deployment and maintaing of the projects",
+                "Deployment and maintaining of the projects",
               ]}
             />
             <Resumecontent
