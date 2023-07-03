@@ -22,19 +22,29 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Software Engineer - Rootcode Labs, Colombo"
-              date="August 2021 - Present"
+              title="Senior Software Engineer - Harver, recruited by Gapstars, Colombo"
+              date="October 2022 - Present"
               content={[
-                "Engaged in an incident reporting admin application, designing the database schema and automation of data migration from excel to the database(Nest JS, React JS, MySQL) - Hashtag Generation",
-                "Engaged in a video conferencing web and admin application(Nest TS, React JS, MySQL) - Expert Republic",
+                "Reduced project delivery time by 75% through the development of marketplace integrations that can be set up with a few clicks",
+                "Increased client base significantly by building Workday application tracking system integration.",
               ]}
             />
             <Resumecontent
-              title="Software Engineer - Zone24x7 (Pvt) Ltd (Outsourced to Circles.Life)"
+              title="Software Engineer - Rootcode Labs, Colombo"
+              date="August 2021 - October 2022"
+              content={[
+                "Completed and handed over the Hashtag Generation admin application",
+                "Fixed a prolonged issue with complex booking pattern matching and reduce the complexity of the algorithm to a minimum. ",
+                "Reduced project delivery time by 75% through the development of a simplified booking pattern that can be set up with a few clicks and with a demo",
+                "DB migration from Excel to PostgreSQL with automated scripts"
+              ]}
+            />
+            <Resumecontent
+              title="Software Engineer - Circles.Life, recruited by Zone24x7, Colombo"
               date="January 2021 - August 2021"
               content={[
-                "Engaged in a Telecom project which is being currently launched to Singapore, Australia, Japan, etc.. with more than 10000 user base",
-                "Tools & Technologies - NodeJS, Vanilla JS, MySQL, MongoDB, GoLang, Jenkins",
+                "I am responsible for implementing the functional requirements of the application that handles high traffic.",
+                "Increased client base significantly by building a Family Plan package",
                 "Roles played - Backend, Frontend, Deployment",
               ]}
             />
@@ -42,26 +52,15 @@ function Resume() {
               title="Full-Stack Software Engineer - Half Life (Private) Limited"
               date="January 2020 - January 2021"
               content={[
-                "Engaged in a project to implement centralized authentication system. (PostgresSQL, ReactJS, Nodejs/ExpressJs, Digital Ocean)",
-                "Engaged in a Survey Management web and admin application. (PostgresSQL, Nodejs/ExpressJs, React JS/Redux, Digital Ocean)",
-                "Engaged in a project to implement trace web and admin application(PostgresSQL, Nodejs/ExpressJs, React JS/Redux, Digital Ocean)",
-                "Engaged in a project to implement trace mobile app application(Flutter)",
-                "Engaged in a project to implement data sync command line application(Python, OAuth, Docker)",
-                "Engaged in a project to implement google analytics (Python, OAuth, Google Analytics)",
-                "Manasa Project (PostgresSQL, ReactJS, Nodejs/ExpressJs, Digital Ocean)",
-                "Worked under an Agile Environment.",
-                "Deployment and maintaining of the projects",
+                "Completed centralized authentication system connecting multiple applications across different platforms",
+                "Increased client base significantly by building a survey application that can be reusable with multiple client applications"
               ]}
             />
             <Resumecontent
               title="Undergraduate Trainee - IFS Research & Development (Pvt) Ltd"
               date="November 2018 - October 2019"
               content={[
-                "Engaged in a project to convert desktop application to a web and mobile application",
-                "Engaged in a project to convert MS Installer • to WIX Installer",
-                "Worked with Oracle PL/SQL.",
-                "Worked under an Agile Environment",
-                "Worked with JIRA",
+                "Converted the existing MS installer with a WIX installer and improved the performance, scalability, and user experience of the application",
               ]}
             />
           </Col>
@@ -71,11 +70,6 @@ function Resume() {
               title="B. SC IN INFORMATION TECHNOLOGY [Sri Lanka Institute Of Information Technology] "
               date="2017 - 2020"
               content={[`WGPA: 3.48`]}
-            />
-
-            <Resumecontent
-              title="M. SC IN CYBER SECURITY [Sri Lanka Institute Of Information Technology] "
-              date="2021 - Present"
             />
 
             <h3 className="resume-title">Certifications</h3>
