@@ -14,7 +14,7 @@
     "react-parallax-tilt": "^1.5.47",
     "react-particles-js": "^3.5.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-ts-github-calendar": "^1.0.3",
     "tsparticles": "^1.31.1",
     "typewriter-effect": "^2.18.0",

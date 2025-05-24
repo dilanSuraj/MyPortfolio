@@ -74,39 +74,40 @@ function Resume() {
 
             <h3 className="resume-title">Certifications</h3>
             <Resumecontent
-              title="AWS Machine Learning scholarship [Udacity] "
-              date="2021 - Present"
+              title="NGINX Web Server from Scratch [Udemy] "
+              date="May 2025 - No expiration"
+              content={["https://www.udemy.com/certificate/UC-32f91de0-8175-43ac-bfc4-05d5762c95d8/"]}
             />
             <Resumecontent
               title="AWS Fundamentals: Going Cloud-Native [Coursera] "
               date="August 2020 - No expiration"
-              content={[ "https://coursera.org/share/1761264dd5b0becc2f7e3beeeaa66823" ]}
+              content={["https://coursera.org/share/1761264dd5b0becc2f7e3beeeaa66823"]}
             />
             <Resumecontent
               title="Getting Started with Google Kubernetes Engine [Coursera] "
               date="October 2020 - No expiration"
-              content={[ "https://coursera.org/share/bcd7d1b87638e620bb054f7006235483" ]}
+              content={["https://coursera.org/share/bcd7d1b87638e620bb054f7006235483"]}
             />
             <Resumecontent
               title="The Complete SQL Course 2020: Become a MYSQL Master [Udemy] "
               date="September 2020 - No expiration"
-              content={[ "https://www.udemy.com/certificate/UC-07381592-aa69-4446-9821-999dac48a1ae/" ]}
+              content={["https://www.udemy.com/certificate/UC-07381592-aa69-4446-9821-999dac48a1ae/"]}
             />
             <Resumecontent
               title="Building Serverless Apps on AWS [LinkedIn] "
               date="September 2020 - No expiration"
-              content={[ "http://www.linkedin.com/learning/building-serverless-apps-onaws-2?trk=flagshiplil_details_certification&trk=lil_details_certification" ]}
+              content={["http://www.linkedin.com/learning/building-serverless-apps-onaws-2?trk=flagshiplil_details_certification&trk=lil_details_certification"]}
             />
             <Resumecontent
               title="Serverless and Microservices for AWS [LinkedIn] "
               date="September 2020 - No expiration"
-              content={[ "http://www.linkedin.com/learning/serverless-and-microservicesfor-aws?trk=flagshiplil_details_certification&trk=lil_details_certification" ]}
+              content={["http://www.linkedin.com/learning/serverless-and-microservicesfor-aws?trk=flagshiplil_details_certification&trk=lil_details_certification"]}
             />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-          <AiOutlineDownload />&nbsp;Download CV
+            <AiOutlineDownload />&nbsp;Download CV
           </Button>
         </Row>
       </Container>

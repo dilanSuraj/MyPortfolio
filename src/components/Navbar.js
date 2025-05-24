@@ -94,6 +94,16 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                as={Link}
+                to="/achievements"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Achievements
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
                 href="https://surajblog915104510.wordpress.com/"
                 target="_blank"
                 rel="noreferrer"

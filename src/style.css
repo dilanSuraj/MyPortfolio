@@ -603,6 +603,7 @@ html {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  flex: 1;
 }
 
 .resume {
@@ -663,6 +664,10 @@ html {
   list-style: none;
 }
 
+.achievement-item ul li {
+  padding-bottom: 50px !important;
+}
+
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
@@ -677,6 +682,12 @@ html {
   top: 0;
   background: #fff;
   border: 2px solid #8a49a8;
+}
+
+.achievement-item {
+  border: none !important;
+  position: static !important;
+  /* forcibly override if needed */
 }
 
 .like-item {
@@ -698,6 +709,12 @@ html {
   transform: translateY(-2px) !important;
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .animate-like {
